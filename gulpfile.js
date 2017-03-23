@@ -10,7 +10,7 @@ var gulp = require('gulp'),
   runSequence = require('run-sequence');
 
 var paths = {
-  scripts: ['lib/*.js', 'index.js'],
+  scripts: ['lib/**/*.js', 'index.js'],
   packages: [
     'package.json'
   ]
